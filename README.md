@@ -1,0 +1,35 @@
+# Create a Mixue Thailand | Fresh Ice Cream & Tea
+
+## Projecet description
+
+- นี่คือการจำลองหน้าเว็บไซต์ Sunrise Logistics
+- สร้างขึ้นเพื่อเรียนรู้เกี่ยวกับวิธีสร้างหน้าเว็บไซต์
+- เพื่อศึกษาเกี่ยวกับ HTML เบื้องต้น
+- ไม่มีการใช้ CSS และ JavaScript
+
+## File structure
+
+- **index.html** - หน้าหลักสำหรับเว็บไซต์
+- **about.html** - หน้าเกี่ยวกับ อธิบายเรื่องราว และเป้าหมายของบริษัท
+- **services.html** - หน้าบริการ บอกรายละเอียดเกี่ยวกับการบริการของเรา
+- **contact.html** - หน้าติดต่อ บอกสถานที่ตั้งบริษัท และใช้สำหรับพูดคุยกับเรา
+- **images** - ใช้สำหรับการนำภาพไปใช้งานในหน้าเว็บไซต์
+- **README.md** - เอกสารสำหรับอธิบายเว็บไซต์
+
+## All screenshots and links to each page
+
+1. [คลิกเพื่อดูหน้าหลัก /index.html](/index.html)
+
+[![คลิกเพื่อดูหน้าหลัก](รูป/index.jpg)](/index.html)
+
+2. [คลิกเพื่อดูเกี่ยวกับ /about.html](/about.html)
+
+[![คลิกเพื่อดูเกี่ยวกับ](รูป/about.jpg)](/about.html)
+
+3. [คลิกเพื่อดูบริการ /services.html](/services.html)
+
+[![คลิกเพื่อดูบริการ](รูป/service.jpg)](/services.html)
+
+4. [คลิกเพื่อดูติดต่อ /contact.html](/contact.html)
+
+[![คลิกเพื่อดูติดต่อ](รูป/contact.jpg)](/contact.html)
