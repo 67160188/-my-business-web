@@ -4,17 +4,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>ติดต่อ Sunrise Logistics</title>
-    <meta
-      name="description"
-      content="ข้อมูลติดต่อสำนักงานใหญ่ Sunrise Logistics และช่องทางติดต่อทั่วไป"
-    />
+    <meta name="description" content="ข้อมูลติดต่อสำนักงานใหญ่ Sunrise Logistics และช่องทางติดต่อทั่วไป" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
+
+    <header id="header">
       <nav>
         <ul>
           <li><a href="index.html">หน้าแรก</a></li>
-          <li><a href="about.html">เกี่ยวกับ Sunrise Logistics</a></li>
+          <li><a href="about.html">เกี่ยวกับเรา</a></li>
           <li><a href="services.html">บริการขนส่ง</a></li>
           <li><a href="contact.html">ติดต่อเรา</a></li>
         </ul>
@@ -22,37 +21,37 @@
     </header>
 
     <main>
-      <h1>ติดต่อ Sunrise Logistics</h1>
-      <section aria-labelledby="form">
-        <h2 id="form">สอบถามข้อมูลเพิ่มเติม</h2>
-        <!-- ฟอร์มตัวอย่าง (local form only) -->
-        <form action="#" method="post">
-          <label for="name">ชื่อ:</label><br />
-          <input type="text" id="name" name="name" required /><br /><br />
+      <h1 class="page-title">ติดต่อ Sunrise Logistics</h1>
 
-          <label for="email">อีเมล:</label><br />
-          <input type="email" id="email" name="email" required /><br /><br />
+      <section class="content-section" aria-labelledby="form-heading">
+        <h2 id="form-heading">สอบถามข้อมูลเพิ่มเติม</h2>
+        <form class="contact-form" action="#" method="post">
+          <label for="name">ชื่อ</label>
+          <input type="text" id="name" name="name" placeholder="กรอกชื่อของคุณ" required />
 
-          <label for="message">ข้อความ:</label><br />
-          <textarea id="message" name="message" rows="5" required></textarea
-          ><br /><br />
+          <label for="email">อีเมล</label>
+          <input type="email" id="email" name="email" placeholder="example@email.com" required />
+
+          <label for="message">ข้อความ</label>
+          <textarea id="message" name="message" rows="5" placeholder="พิมพ์ข้อความของคุณที่นี่..." required></textarea>
 
           <button type="submit">ส่งข้อความ</button>
         </form>
       </section>
 
-      <section aria-labelledby="hq">
-        <h2 id="hq">สำนักงานใหญ่ (ข้อมูลอ้างอิง)</h2>
+      <section class="content-section" aria-labelledby="hq">
+        <h2 id="hq">สำนักงานใหญ่</h2>
         <p>บางแค, กรุงเทพ, ประเทศไทย</p>
         <p>
-          เว็บไซต์หลักของ Sunrise Logistics (อ้างอิง):
-          <a href="https://Sunrise Logistics.com" target="_blank" rel="noopener"
-            >SunriseLogistics.com</a
-          >
+          เว็บไซต์หลัก:
+          <a href="https://sunriselogistics.com" target="_blank" rel="noopener">SunriseLogistics.com</a>
         </p>
       </section>
-        </iframe>
-      </section>
     </main>
+
+    <footer id="footer">
+      <p>© 2025 Sunrise Logistics Co., Ltd. All rights reserved.</p>
+    </footer>
+
   </body>
 </html>
